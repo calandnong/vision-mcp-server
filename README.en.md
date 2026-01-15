@@ -62,7 +62,7 @@ The server provides specialized tools for different image analysis tasks:
   "mcpServers": {
     "vision-mcp-server": {
       "command": "npx",
-      "args": ["-y", "@vision/mcp-server"],
+      "args": ["-y", "@fastcoder/vision-mcp-server"],
       "env": {
         "OPENAI_API_KEY": "your-api-key-here",
         "OPENAI_BASE_URL": "https://api.openai.com/v1",
@@ -85,7 +85,7 @@ The server provides specialized tools for different image analysis tasks:
 {
   "vision-mcp-server": {
     "type": "npm",
-    "package": "@vision/mcp-server",
+    "package": "@fastcoder/vision-mcp-server",
     "env": {
       "OPENAI_API_KEY": "your-api-key-here",
       "OPENAI_BASE_URL": "https://api.openai.com/v1",
@@ -100,7 +100,7 @@ The server provides specialized tools for different image analysis tasks:
 Add MCP server via command line:
 
 ```shell
-claude mcp add vision-mcp-server --env OPENAI_API_KEY=your_api_key --env OPENAI_BASE_URL=https://api.openai.com/v1 --env OPENAI_VISION_MODEL=gpt-4o -- npx -y "@vision/mcp-server"
+claude mcp add vision-mcp-server --env OPENAI_API_KEY=your_api_key --env OPENAI_BASE_URL=https://api.openai.com/v1 --env OPENAI_VISION_MODEL=gpt-4o -- npx -y "@fastcoder/vision-mcp-server"
 ```
 
 ### MCP Inspector (for Testing and Debugging)
@@ -158,7 +158,7 @@ Note: `VISION_MCP_*` environment variables take precedence over `OPENAI_*` varia
 ### Install from npm
 
 ```bash
-npm i @vision/mcp-server
+npm i @fastcoder/vision-mcp-server
 ```
 
 ### Local Development

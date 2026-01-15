@@ -85,7 +85,7 @@
 {
   "vision-mcp-server": {
     "type": "npm",
-    "package": "@vision/mcp-server",
+    "package": "@fastcoder/vision-mcp-server",
     "env": {
       "OPENAI_API_KEY": "your-api-key-here",
       "OPENAI_BASE_URL": "https://api.openai.com/v1",
@@ -100,7 +100,7 @@
 使用命令行添加 MCP 服务器：
 
 ```shell
-claude mcp add vision-mcp-server --env OPENAI_API_KEY=your_api_key --env OPENAI_BASE_URL=https://api.openai.com/v1 --env OPENAI_VISION_MODEL=gpt-4o -- npx -y "@vision/mcp-server"
+claude mcp add vision-mcp-server --env OPENAI_API_KEY=your_api_key --env OPENAI_BASE_URL=https://api.openai.com/v1 --env OPENAI_VISION_MODEL=gpt-4o -- npx -y "@fastcoder/vision-mcp-server"
 ```
 
 ### MCP Inspector（用于测试和调试）
@@ -158,7 +158,7 @@ npm run inspector:dev
 ### 从 npm 安装
 
 ```bash
-npm i @vision/mcp-server
+npm i @fastcoder/vision-mcp-server
 ```
 
 ### 本地开发
