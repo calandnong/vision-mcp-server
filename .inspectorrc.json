@@ -1,0 +1,17 @@
+{
+  "serverName": "vision-mcp-server",
+  "serverVersion": "0.1.0",
+  "description": "MCP Server for Vision Analysis - Provides image analysis capabilities using OpenAI API",
+  "env": {
+    "VISION_MCP_SERVER_NAME": "vision-mcp-server",
+    "VISION_MCP_SERVER_VERSION": "0.1.0",
+    "VISION_MCP_API_URL": "https://api.openai.com/v1/chat/completions",
+    "VISION_MCP_API_KEY": "",
+    "VISION_MCP_MODEL": "gpt-4o",
+    "VISION_MCP_TEMPERATURE": "0.7",
+    "VISION_MCP_TOP_P": "1.0",
+    "VISION_MCP_MAX_TOKENS": "2048",
+    "VISION_MCP_TIMEOUT": "60000",
+    "VISION_MCP_LOG_PATH": ""
+  }
+}
